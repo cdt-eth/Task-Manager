@@ -1,5 +1,7 @@
 import './App.css';
 import TaskList from './components/TaskList';
+import Header from './components/Header';
+import TaskForm from './components/TaskForm';
 import TaskListContextProvider from './context/TaskListContext';
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
       <div className="container">
         <div className="app-wrapper">
           <div className="main">
+            <Header />
+            <TaskForm />
             <TaskList />
           </div>
         </div>
