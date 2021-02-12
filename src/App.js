@@ -1,6 +1,6 @@
-import "./App.css";
-import TaskList from "./components/TaskList";
-import TaskListContextProvider from "./context/TaskListContext";
+import './App.css';
+import TaskList from './components/TaskList';
+import TaskListContextProvider from './context/TaskListContext';
 
 function App() {
   return (
